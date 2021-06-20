@@ -216,7 +216,7 @@ func main() {
 			milkCoffeeOrderMsg.ReplyMarkup = milkCoffeeOrderMenu
 			bot.Send(milkCoffeeOrderMsg)
 		case "Не просто кофе":
-			notJustCoffeeOrderMsg := tgbotapi.NewMessage(update.Message.Chat.ID, "Ого, любите кофе и хотите поэксперементировать?" +
+			notJustCoffeeOrderMsg := tgbotapi.NewMessage(update.Message.Chat.ID, "Ого, любите кофе и хотите поэксперементировать?"+
 				" Похвально😋 Что желаете? :)")
 			notJustCoffeeOrderMsg.ReplyMarkup = notJustCoffeeOrderMenu
 			bot.Send(notJustCoffeeOrderMsg)
@@ -261,6 +261,6 @@ func order(update tgbotapi.Update) {
 			}
 		}
 	}
-
+//
 }
 */

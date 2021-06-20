@@ -261,6 +261,5 @@ func order(update tgbotapi.Update) {
 			}
 		}
 	}
-//
 }
 */
